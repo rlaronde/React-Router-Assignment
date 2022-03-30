@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import {Outlet, Link} from "react-router-dom";
+import Heada from "./components/Heada"
+import Foota from "./components/foota"
+import "./assets/css/styles.css";
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Heada />
+      <main>
+      </main>
+      <Outlet />
+      <Foota />
     </div>
   );
 }
-
-export default App;
