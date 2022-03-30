@@ -5,7 +5,7 @@ export default function Heada() {
      
                
       <header>
-          <img src="./images/logo.png"></img>
+          <img src={require('../assets/images/logo.png')} alt="logo"/>
           <h1>Robert LaRonde</h1>
           <h4>Digital Designer <span> | </span> Writer <span> | </span> Podcast Producer {" "} </h4>
 
