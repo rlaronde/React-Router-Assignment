@@ -1,7 +1,9 @@
+/*imports*/
 import {Outlet, Link} from "react-router-dom";
 import Heada from "./components/Heada"
 import Foota from "./components/foota"
 import "./assets/css/styles.css";
+/*content*/
 export default function App() {
   return (
     <div>

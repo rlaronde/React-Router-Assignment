@@ -1,21 +1,15 @@
-import Heada from "../components/Heada"
+/*Contact content */
 
 export default function Projects() {
-    return (
-        <div>
-           
-      <main>
-        <h2>Contact</h2>
-        <ul>
-      <li>Robert LaRonde</li>
-      <li><a href="mailto:rlaronde@myseneca.ca">rlaronde@myseneca.ca</a></li>
-
-        </ul>
-      
-        
-        </main>
-
-
-      </div>
+  return (
+        <div>  
+          <main>
+            <h2>Contact</h2>
+            <ul>
+              <li>Robert LaRonde</li>
+              <li><a href="mailto:rlaronde@myseneca.ca">rlaronde@myseneca.ca</a></li>
+            </ul>
+          </main>
+        </div>
     );
   }
